@@ -1,0 +1,41 @@
+# Core Dependencies for All Applications
+fastapi==0.104.0
+uvicorn==0.24.0
+pydantic-settings==2.0.0
+python-dotenv==1.0.0
+
+# Document Processing (App 1 & 2)
+docling==1.0.0
+python-docx==0.8.11
+
+# RAG Core (All Apps)
+llama-index==0.9.0
+llama-index-readers-docling==0.1.0
+llama-index-node-parser-docling==0.1.0
+llama-index-vector-stores-postgres==0.1.0
+llama-index-embeddings-ollama==0.1.0
+llama-index-llms-ollama==0.1.0
+
+# Database
+psycopg2-binary==2.9.0
+sqlalchemy==2.0.0
+
+# Agentic System (App 2 & 3)
+crewai==0.32.0
+crewai[tools]==0.32.0
+
+# Enhanced Reranking Support
+sentence-transformers==2.2.2
+transformers==4.21.0
+torch==1.12.0
+
+# Observability (App 2 & 3)
+arize-phoenix==4.0.0
+
+# Evaluation (App 3)
+ragas==0.1.0
+datasets==2.14.0
+
+# Utilities
+requests==2.31.0
+aiofiles==23.2.1
